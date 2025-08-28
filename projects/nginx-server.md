@@ -16,7 +16,7 @@ Install Nginx and serve a static web page.
 3.Add index page:
    echo "Hello, Reka.com" | sudo tee /var/www/html/index.html
 4. Access at: http://<server-ip>
-
+```
 Verification
 
 ✅ Page served in browser.
