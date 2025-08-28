@@ -58,6 +58,105 @@ Each week builds from beginner → mid → expert level.
 
 ---
 
+# ✅ Linux 90-Day Bootcamp – Domain Checklists (Progress Example)
+
+Track progress across all 12 SysAdmin domains.  
+Each domain moves **Beginner → Mid → Expert**.  
+
+---
+
+## 1. User & Access Management
+- [x] Beginner: Create users with `adduser`, set passwords.  
+- [ ] Mid: Manage groups, sudoers, bulk provisioning script.  
+- [ ] Expert: Central auth (LDAP/FreeIPA), enforce password policy, SSH key mgmt.  
+
+---
+
+## 2. Filesystem & Storage
+- [x] Beginner: Navigate FS, use `df`, `du`, mount disk.  
+- [ ] Mid: Configure `/etc/fstab`, implement quotas, LVM basics.  
+- [ ] Expert: Encrypted volumes (LUKS), snapshots, storage performance tuning.  
+
+---
+
+## 3. Networking
+- [x] Beginner: Show IP, ping, curl, configure static IP.  
+- [ ] Mid: UFW firewall rules, port restrictions.  
+- [ ] Expert: Multi-NIC, private subnets, routing rules, VPN integration.  
+
+---
+
+## 4. Processes & Monitoring
+- [x] Beginner: Use `ps`, `top`, `kill`, systemctl basics.  
+- [ ] Mid: Install `htop`, stress-test, monitor CPU/memory/disk.  
+- [ ] Expert: Custom systemd units, self-healing with `Restart=always`, health timers.  
+
+---
+
+## 5. Logs & Observability
+- [x] Beginner: Explore `/var/log/`, tail logs, grep SSH failures.  
+- [ ] Mid: Log rotation, write script to auto-block failed SSH IPs.  
+- [ ] Expert: Centralized logging (ELK/Graylog), searchable dashboards.  
+
+---
+
+## 6. Package & Patch Management
+- [x] Beginner: Install/remove packages (`apt`, `yum`).  
+- [ ] Mid: Apply updates, rollback strategy.  
+- [ ] Expert: Automated security updates, config mgmt (Ansible/Yum repos).  
+
+---
+
+## 7. Service & Application Hosting
+- [x] Beginner: Install and start Nginx, serve Hello World.  
+- [ ] Mid: Reverse proxy, multi-site configs.  
+- [ ] Expert: systemd app services, scaling web services, HAProxy.  
+
+---
+
+## 8. Backups & Recovery
+- [x] Beginner: Manual backup with `tar`, `rsync`.  
+- [x] Mid: Automate with cron, backup DB dumps.  
+- [ ] Expert: Remote backups with rsync+SSH, restore drills, disaster recovery runbook.  
+
+---
+
+## 9. Security & Hardening
+- [ ] Beginner: Disable root SSH, enforce key-only auth.  
+- [ ] Mid: Password policies, fail2ban, firewall rules.  
+- [ ] Expert: CIS benchmarks, Lynis audit, compliance checklist.  
+
+---
+
+## 10. Automation & Scripting
+- [x] Beginner: Simple bash script (backup `/etc`).  
+- [ ] Mid: Bulk provisioning, log monitoring scripts.  
+- [ ] Expert: Cron orchestration, system automation with Ansible/Terraform intro.  
+
+---
+
+## 11. Virtualization & Cloud
+- [x] Beginner: Spin up VMs (VirtualBox/Cloud).  
+- [ ] Mid: Multi-VM environment (Web + DB + Monitoring).  
+- [ ] Expert: AWS CLI, snapshots, hybrid infra (Jumpbox, staging vs prod).  
+
+---
+
+## 12. Documentation & Runbooks
+- [x] Beginner: Daily logs in Markdown.  
+- [x] Mid: Project writeups (Nginx setup, user provisioning, backups).  
+- [ ] Expert: Incident response playbooks, compliance runbooks, capstone doc.  
+
+---
+
+# 🎯 Progress Snapshot (Week 1)
+- You’ve unlocked **Beginner level** in **8/12 domains** (Users, FS, Networking, Processes, Logs, Packages, Services, Virtualization).  
+- You’ve reached **Mid level** in **Backups** (cronjob automation).  
+- You’ve started **Documentation** at Mid level (daily logs + project docs).  
+- Security & advanced automation will come in **Weeks 2–6**.  
+
+
+
 ## 🎯 Takeaway
 - **Day 1–30:** You can manage users, services, logs, and simple automation.  
 - **Day 31–60:** You can **harden, automate, and monitor** a small infra.  
